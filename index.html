@@ -5,41 +5,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Medium Icons with Popups</title>
-    <link rel="stylesheet" href="./assets/css/base.css">
+    <title>Tags Slider Tutorial</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="main">
-        <div class="icon facebook">
-            <div class="tooltip">Facebook</div>
-            <span><i class="fab fa-facebook-f"></i></span>
+    <div>
+        <div class="tabs">
+            <div class="tab-item active">
+                <i class="tab-icon fas fa-code"></i> HTML
+            </div>
+
+            <div class="tab-item">
+                <i class="fab fa-css3-alt"></i> CSS
+            </div>
+
+            <div class="tab-item">
+                <i class="fas fa-share-alt"></i> RESPONSIVE
+            </div>
+
+            <div class="tab-item">
+                <i class="tab-icon fas fa-plus-circle"></i> JAVASCRIPT
+            </div>
+
+            <div class="tab-item">
+                <i class="tab-icon fas fa-pen-nib"></i> REACTJS
+            </div>
+            <div class="line"></div>
         </div>
 
-        <div class="icon twitter">
-            <div class="tooltip">Twitter</div>
-            <span><i class="fab fa-twitter"></i></span>
-        </div>
+        <div class="tab-content">
+            <div class="tab-pane active">
+                <h2>HTML</h2>
+                <p>
+                    HTML Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
+                </p>
+            </div>
 
-        <div class="icon instagram">
-            <div class="tooltip">Instagram</div>
-            <span><i class="fab fa-instagram"></i></span>
-        </div>
+            <div class="tab-pane">
+                <h2>CSS</h2>
+                <p>
+                    Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+                </p>
+            </div>
 
-        <div class="icon github">
-            <div class="tooltip">Github</div>
-            <span><i class="fab fa-github"></i></span>
-        </div>
+            <div class="tab-pane">
+                <h2>RESPONSIVE</h2>
+                <p>
+                    A Responsive design means that your Website will serves all devices with the same code and it adjusts automatically according the screen size.
+                </p>
+            </div>
 
-        <div class="icon youtube">
-            <div class="tooltip">Youtube</div>
-            <span><i class="fab fa-youtube"></i></span>
+            <div class="tab-pane">
+                <h2>JAVASCRIPT</h2>
+                <p>
+                    JAVASCRIPT results for javascript meaning Search instead for javascript meaning JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites.
+                    Like server-side scripting languages, such as PHP and ASP, JavaScript code can be inserted anywhere within the HTML of a webpage.
+                </p>
+            </div>
+
+            <div class="tab-pane">
+                <h2>REACTJS</h2>
+                <p>
+                    React.js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. It’s used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components.
+                </p>
+            </div>
         </div>
     </div>
 </body>
+
+<script src="assets/js/main.js"></script>
 
 </html>
